@@ -36,7 +36,10 @@ nav {
 .nav-links a:hover {
   color: #f77493;
 }
-
+ul{
+  list-style-position: inside;
+  text-align: left;
+}
 .profile-img {
   width: 250px;
   height: 250px;
@@ -87,7 +90,6 @@ nav {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
     display: flex;

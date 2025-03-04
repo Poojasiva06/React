@@ -17,20 +17,13 @@ drive organizational success</p>
 function About() {
   return (
     <div className="page about">
-      <h1>About Me</h1>
-      <p>
-         I completed my BE (ECE) in Velammal Institute of Technology ( 2020-2024) with an aggregate of 86.6%.
-      </p>
-      <h3>
-        Technical Skills :
-      </h3>
-      <p>
-      Programming Languages: C, Java, Python
-      </p>
-      <p>
-      Web Technologies: HTML, CSS, Bootstrap, SpringBoot</p>
-      <p>Frameworks: Spring Boot  Databases: DBMS, MySQL</p>
-      <p>Cloud Services: AWS</p>
+      <h1> Skills</h1>
+      <ul>
+        <li>Programming Languages : C, Java, Python</li>
+        <li>Web Technologies : HTML, CSS, Bootstrap, SpringBoot</li>
+        <li>Frameworks: Spring Boot  Databases: DBMS, MySQL</li>
+        <li>Cloud Services: AWS</li>
+      </ul>
       <a href="/PoojaResume.pdf" download className="btn">Download My Resume</a>
     </div>
   );
