@@ -1,7 +1,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(./images1.jpeg);
+  background: linear-gradient(to right, #eea0cc, #ae6aae);
   color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
