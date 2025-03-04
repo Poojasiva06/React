@@ -1,0 +1,49 @@
+/* Center the app */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container */
+.container {
+  background: white;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Dice Display */
+.dice {
+  font-size: 4rem;
+  font-weight: bold;
+  background: #ffcc00;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #218838;
+}
