@@ -1,0 +1,109 @@
+.shop-container {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/034/221/125/small_2x/elegant-dragon-inspired-jewelry-pieces-background-with-empty-space-for-text-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    color: rgb(9, 1, 1);
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.add-to-cart-btn {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+.add-to-cart-btn:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+.cart-container {
+    margin-top: 30px;
+    background: rgba(242, 241, 241, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(239, 237, 237, 0.748);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: darkred;
+}
+
+.buy-now-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.buy-now-btn:hover {
+    background: darkgreen;
+    transform: scale(1.05);
+}
+
+.exit-btn {
+    background: rgb(22, 22, 22);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.exit-btn:hover {
+    background: darkgray;
+    transform: scale(1.05);
+}

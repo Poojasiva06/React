@@ -1,0 +1,32 @@
+.shop-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .product-item button {
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
