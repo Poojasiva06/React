@@ -11,9 +11,10 @@ export default function Checkout() {
 
     return (
         <div style={{ textAlign: "center", padding: "50px" }}>
-            <h2>Checkout Page</h2>
-            <p>Your order is being processed.</p>
+            <h2 style={{color:"white"}}>Checkout Page</h2>
+            <p style={{color:"white"}}>Your order is being processed.</p>
             <button onClick={handleConfirmOrder}>Confirm Order</button>
+            <h2 style={{color:"white"}}>Thankyou for visiting us!!</h2>
         </div>
     );
 }
