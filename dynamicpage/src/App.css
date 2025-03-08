@@ -1,0 +1,97 @@
+/* 🌟 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+/* 🌟 Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 🌟 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.navbar:hover {
+  background: #1e1e1e;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  color: #ff8c00;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* 🌟 Page Content */
+.content {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.content:hover {
+  transform: scale(1.02);
+}
+
+/* 🌟 Headings */
+h1 {
+  color: #222;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* 🌟 Subtext */
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* 🌟 404 Page */
+.not-found {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+}
