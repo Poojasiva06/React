@@ -1,0 +1,56 @@
+.jewelry-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .jewelry-item {
+    border: 1px solid #eee;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Soft shadow */
+    transition: transform 0.3s ease;
+  }
+  
+  .jewelry-item:hover {
+    transform: translateY(-5px); /* Lift on hover */
+  }
+  
+  .jewelry-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .jewelry-name {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .jewelry-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .add-to-cart-button {
+    padding: 10px 20px;
+    background-color: #b3e5fc; /* Light blue button */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #81d4fa; /* Darker blue on hover */
+  }
